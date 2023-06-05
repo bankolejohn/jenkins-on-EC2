@@ -13,7 +13,7 @@ There are two methods:
 This approach is easier as it is less stressful.
 All you need is to install docker on the server
 
-  sudo apt update
+  	sudo apt update
 	sudo apt install docker.io
   
   ![jenkins-start-page](https://github.com/bankolejohn/jenkins-on-EC2/assets/76499525/8f35d803-eb88-4be7-9925-d15bc6287b59)
