@@ -37,4 +37,20 @@ All you need is to install docker on the server
   then create your username and password
   
   start using jenkins
+  
+  Note:
+  
+  There are two roles for Jenkins App
+  
+  1. Jenkins Administrator
+
+- admininisters and manages jenkisn
+- sets up jenkins cluster
+- install plugins
+- backup jenkins data
+
+2. Jenkins User
+- creates the actual work flows
+
+
 
