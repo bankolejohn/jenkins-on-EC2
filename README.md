@@ -20,11 +20,11 @@ then
 
 	sudo docker run -p 8080:8080 -p 50000:50000 -d -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
 
-(note port 5000 is where the jenkins master and node communicates; for large workloads)
-(-v is to mount volumes fo rdata persistence)
-(jenkins_home is the path that would be created and referenced by jenkins)
-(the data created by jenkins by default is stored in /var/jenkins_home)
-(jenkins/jenkins:lts is the official name of the jenkins image)
+(note **port 5000** is where the jenkins master and node communicates; for large workloads)
+(**-v** is to mount volumes fo rdata persistence)
+(**jenkins_home** is the path that would be created and referenced by jenkins)
+(the data created by jenkins by default is stored in **/var/jenkins_home**)
+(**jenkins/jenkins:lts** is the official name of the jenkins image)
   
   ![jenkins-start-page](https://github.com/bankolejohn/jenkins-on-EC2/assets/76499525/8f35d803-eb88-4be7-9925-d15bc6287b59)
   
