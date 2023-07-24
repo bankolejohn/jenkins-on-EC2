@@ -1,4 +1,4 @@
-The first you need to do as a user is to creat a job to automate your applications workflow
+The first thing you need to do as a user is to create a job to automate your application's workflow
 
 For example, a java application:
 - Build with Maven
