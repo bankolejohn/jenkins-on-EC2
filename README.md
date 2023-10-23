@@ -20,7 +20,7 @@ then
 
 	sudo docker run -p 8080:8080 -p 50000:50000 -d -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
 
-(note **port 5000** is where the jenkins master and node communicates; for large workloads)
+(note **port 5000** is where the jenkins master and worker node communicates; for large workloads)
 (**-v** is to mount volumes fo rdata persistence)
 (**jenkins_home** is the path that would be created and referenced by jenkins)
 (the data created by jenkins by default is stored in **/var/jenkins_home**)
